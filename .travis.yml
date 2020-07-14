@@ -3,4 +3,4 @@ language: swift
 osx_image: xcode11.4
 os: osx
 
-script: xcodebuild clean build test -project Test-Ci.xcodeproj -scheme "Test-Ci" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.4,name=iPhone 8" CODE_SIGN_IDENTIY="" CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean build test -project Test-Ci.xcodeproj -scheme "Test-Ci" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.4.1,name=iPhone 8" CODE_SIGN_IDENTIY="" CODE_SIGNING_REQUIRED=NO
